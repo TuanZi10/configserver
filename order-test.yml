@@ -1,0 +1,16 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.56.171:8761/eureka/
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/BarcelonaMessi/config-repo
+          username: 1062635336@qq.com
+          password: 3.1415jlj
+evn:
+  test
